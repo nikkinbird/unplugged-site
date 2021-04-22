@@ -146,6 +146,10 @@ main {
 }
 
 aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -204,6 +208,10 @@ footer {
 }
 
 .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -222,6 +230,12 @@ address {
 
 .social-icons {
 
+}
+
+.copyright,
+.contact,
+.social {
+  width: 100%;
 }
 
 
