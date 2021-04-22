@@ -90,8 +90,19 @@ textarea {
 
 /********** Base Styles ****************/
 
-.content-wrapper {
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /********** Header ****************/
@@ -100,10 +111,27 @@ header {
 
 }
 
-nav {
-
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+nav ul li {
+  display: block;
+}
+
+.unplugged-logo {
+  width: 100%;
+}
 /********** Hero Area ****************/
 
 .hero-area {
@@ -113,12 +141,24 @@ nav {
 
 /********** Main Content ****************/
 
+main {
+
+}
+
 aside {
 
 }
 
-aside h2 {
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.newsletter h2,
+.newsletter p {
+  width: 100%;
 }
 
 form {
@@ -181,7 +221,7 @@ address {
 }
 
 .social-icons {
-  
+
 }
 
 
