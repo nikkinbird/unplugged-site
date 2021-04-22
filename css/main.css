@@ -111,46 +111,34 @@ header {
 
 }
 
-header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 
-nav ul {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-flow: row wrap;
+  padding: 0;
+  width: 100%;
 }
 
-nav ul li {
-  display: block;
-}
+
 
 .unplugged-logo {
   width: 100%;
 }
 /********** Hero Area ****************/
 
-.hero-area {
-
+.hero-area h1 {
+  width: 90%;
 }
 
 
 /********** Main Content ****************/
 
 main {
-
-}
-
-aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .newsletter {
@@ -158,6 +146,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 .newsletter h2,
@@ -169,12 +158,16 @@ form {
 
 }
 
+.form-newsletter {
+
+}
+
 article {
 
 }
 
 .features {
-
+  width: 90%;
 }
 
 .fontawesome-icon {
@@ -187,7 +180,7 @@ article {
 
 
 .reviews {
-
+  width: 90%;
 }
 
 .review-headline {
@@ -216,8 +209,9 @@ footer {
 }
 
 
-.contact {
-
+.contact,
+.social {
+  text-align: center;
 }
 
 address {
@@ -238,6 +232,11 @@ address {
   width: 100%;
 }
 
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
