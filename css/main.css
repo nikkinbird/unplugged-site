@@ -366,14 +366,27 @@ address {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
+   Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+/*Tablet styles here*/
+
+
 }
+ 
+@media only screen and (min-width: 1200px) {
+/*Desktop styles here*/
+
+
+}
+
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
