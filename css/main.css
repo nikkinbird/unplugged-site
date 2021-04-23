@@ -172,17 +172,13 @@ footer .copyright {
   margin: 20px 0;
 }
 
-/********** Hero Area ****************/
+/********** Main Content ****************/
 
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
-
-
-/********** Main Content ****************/
-
 
 /* Aside */
 
