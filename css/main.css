@@ -90,6 +90,47 @@ textarea {
 
 /********** Base Styles ****************/
 
+html {
+       font-size: 16px;
+}
+
+body {
+       font-family: 'Open Sans', sans-serif;
+       font-size: 1em;
+       text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e3e3ed;
+}
+
+
+h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+     font-family: 'Poppins', sans-serif;
+     margin: 20px 0;
+     font-size: 1.125em;
+
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+
+address {
+  font-style: normal;
+}
 
 
 .content-wrapper {
