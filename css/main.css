@@ -189,6 +189,13 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* Features */
 
 .features {
@@ -374,8 +381,64 @@ address {
 @media only screen and (min-width: 768px) {
 /*Tablet styles here*/
 
-
+.content-wrapper {
+  width: 80%;
 }
+
+header .content-wrapper {
+  flex-flow: row nowrap;
+}
+
+.hero-area {
+  height: 600px;
+  background-color: green;
+}
+
+/* Aside - Newsletter */
+
+aside .content-wrapper {
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row nowrap;
+}
+
+.form-description,
+.form {
+  width: 32%;
+}
+
+
+/*  Features */
+
+.features .content-wrapper {
+  justify-content: center;
+}
+
+.features .features-items {
+  justify-content: space-around;
+}
+
+.features-items article {
+  width: 25%;
+  padding: 0 1.75em;
+}
+
+/* Reviews  */
+
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-image,
+.review-text {
+  width: 50%;
+}
+
+}  /* End of tablet media query  */
+
+
+
  
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
