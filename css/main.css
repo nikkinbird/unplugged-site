@@ -498,6 +498,30 @@ footer .content-wrapper {
   width: 80%;
 }
 
+/********** About Page *************/
+
+  .mission {
+    background-color: teal;
+  }
+
+  .mission-content {
+    justify-content: space-between;
+  }
+ 
+.mission-content p {
+  width: 45%;
+}
+ 
+.contact-section .content-wrapper h2 {
+  /*  width: 37.5%;  */
+}
+ 
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 }  /* End of tablet media query  */
 
 
