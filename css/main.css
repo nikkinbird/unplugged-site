@@ -511,9 +511,7 @@ footer .content-wrapper {
   width: 45%;
 }
  
-.contact-section .content-wrapper h2 {
-  /*  width: 37.5%;  */
-}
+ /* Contact */
  
 .contact-content {
     display: flex;
@@ -521,7 +519,7 @@ footer .content-wrapper {
     align-items: flex-start;
 }
 
-/********** About Page *************/
+/********** FAQ Page *************/
 
   .faq .content-wrapper {
         justify-content: space-between;
@@ -584,6 +582,16 @@ header nav {
   .social {
     flex-basis: 25%;
   }
+
+/***************** About Page *****************/
+
+/* Contact */
+
+.general,
+.chat {
+  flex-basis: 50%;
+}
+
 
 }  /* End of desktop media query  */
 
