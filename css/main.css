@@ -592,6 +592,15 @@ header nav {
   flex-basis: 50%;
 }
 
+/***************** FAQ Page *****************/
+
+.faq .content-wrapper h1 {
+  width: 100%;
+}
+
+.faq-content {
+  flex-basis: 45%;
+}
 
 }  /* End of desktop media query  */
 
