@@ -333,7 +333,6 @@ address {
 
 
 
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -521,6 +520,20 @@ footer .content-wrapper {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+/********** About Page *************/
+
+  .faq .content-wrapper {
+        justify-content: space-between;
+    }
+    
+    .faq-content {
+        flex-basis: 40%;
+    }
+ 
+    .faq h2 {
+        width: 100%;
+    }
 
 }  /* End of tablet media query  */
 
