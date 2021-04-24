@@ -544,6 +544,46 @@ footer .content-wrapper {
 @media only screen and (min-width: 1200px) {
 
 
+/* Header */
+
+header nav {
+  width: 20%;
+}
+
+
+/* Aside */
+
+  aside .content-wrapper {
+    width: 83%;
+  } 
+
+/* Features */
+
+.features-items article {
+  width: 20%;
+  padding: 0 1.75em;
+}
+
+  /* Footer */
+
+  footer .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-wrapper .footer-content {
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .contact {
+    flex-basis: 25%;
+  }
+
+  .social {
+    flex-basis: 25%;
+  }
 
 }  /* End of desktop media query  */
 
