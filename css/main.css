@@ -247,8 +247,10 @@ aside .content-wrapper {
 /********** Footer ****************/
 
 footer {
-
+  background-color: yellow;
 }
+
+
 
 .footer-content {
   display: flex;
@@ -286,7 +288,38 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: gray;
 }
+
+
+/***************** About Page ****************/
+.mission,
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.map {
+  height: 450px;
+  background-color: pink;
+}
+
+/***************** FAQ Page ****************/
+
+
+
+
+
+
+
 
 
 
@@ -378,8 +411,10 @@ address {
    Modify as content requires.
    ========================================================================== */
 
+/******************************* Tablet styles *******************************************/
+
 @media only screen and (min-width: 768px) {
-/*Tablet styles here*/
+
 
 .content-wrapper {
   width: 80%;
@@ -435,16 +470,34 @@ aside .content-wrapper {
   width: 50%;
 }
 
+/* Footer */
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact,
+.social {
+  width: 50%;
+}
+
+footer .content-wrapper {
+  width: 80%;
+}
+
 }  /* End of tablet media query  */
 
 
 
+/******************************* Desktop styles *******************************************/
  
 @media only screen and (min-width: 1200px) {
-/*Desktop styles here*/
 
 
-}
+
+}  /* End of desktop media query  */
 
 
 
