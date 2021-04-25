@@ -120,7 +120,7 @@ h3,
 h4 {
      font-family: 'Poppins', sans-serif;
      margin: 20px 0;
-     font-size: 1.125em;
+     font-size: 1.125rem;
 
 }
 
@@ -589,6 +589,10 @@ footer .content-wrapper {
   width: 80%;
 }
 
+footer h4 {
+  font-size: 1.5em;
+}
+
 /********** About Page *************/
 
   .mission-content {
@@ -659,6 +663,10 @@ header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  footer h4 {
+    font-size: 1.875em;
   }
 
   .content-wrapper .footer-content {
