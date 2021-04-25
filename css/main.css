@@ -114,14 +114,15 @@ a {
 h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
-     font-weight: normal;
+     font-weight: 500;
 }
  
 h3, 
 h4 {
      font-family: 'Poppins', sans-serif;
+     font-weight 500;
      margin: 20px 0;
-     font-size: 1.125rem;
+     font-size: 1.125em;
 
 }
 
@@ -189,6 +190,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  background: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -196,11 +198,14 @@ header .content-wrapper {
 
 
 header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
 }
 
 header nav ul {
@@ -211,8 +216,7 @@ header nav ul {
 }
 
 header nav ul li {
-  text-transform: uppercase;
-  font-weight: bold;
+  font-size: 1.125em;
 }
 
 header a {
@@ -220,6 +224,7 @@ header a {
 }
 
 footer {
+  text-align: center;
   flex-direction: column;
 }
 
@@ -261,6 +266,13 @@ footer .copyright {
   background-color: #1a2c2a;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500; 
+  line-height: 1.2; 
+}
+
 /* Aside */
 
 aside {
@@ -269,6 +281,10 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
 }
 
 aside .content-wrapper {
@@ -304,6 +320,7 @@ aside .content-wrapper {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -318,11 +335,14 @@ aside .content-wrapper {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  font-weight: normal;
+
 }
 
 
@@ -417,6 +437,19 @@ figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 
@@ -520,10 +553,53 @@ figure {
 
 .content-wrapper {
   width: 80%;
+  margin: 100px 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
+/* Header */
+
+header {
+  justify-content: space-around;
+  padding: 33px 0;
 }
 
 header .content-wrapper {
-  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header figure {
+  width: 30%;
+}
+
+header nav {
+  width: 20%;
+}
+
+header nav ul {
+  justify-content: space-between;
+}
+
+.header-divider {
+  display: none;
+}
+
+/* Hero Area */
+
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
 }
 
 .hero-area {
@@ -533,14 +609,17 @@ header .content-wrapper {
 /* Aside - Newsletter */
 
 aside .content-wrapper {
-  justify-content: space-around;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-start;
   flex-flow: row nowrap;
 }
 
-.form-description,
-.form {
-  width: 32%;
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 40%;
+  margin: 0;
 }
 
 aside .form {
@@ -549,18 +628,22 @@ aside .form {
 
 /*  Features */
 
-.features .content-wrapper {
-  justify-content: center;
+.features h2 {
+  margin-bottom: 20px;
 }
 
-.features .features-items {
-  justify-content: space-around;
-}
+ .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
 
-.features-items article {
-  width: 25%;
-  padding: 0 1.75em;
-}
+  .features .features-item-description {
+    width: 62%;
+  }
+
 
 /* Reviews  */
 
@@ -569,12 +652,22 @@ aside .form {
   justify-content: space-between;
 }
 
-.review-image,
-.review-text {
-  width: 50%;
+.reviews h2 {
+  width: 85%;
 }
 
+.reviews article div {
+  width: 49%;
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
+}
+
+
 /* Footer */
+
 
 .footer-content {
   display: flex;
@@ -593,12 +686,16 @@ footer .content-wrapper {
 
 footer h4 {
   font-size: 1.5em;
+  margin-bottom: 40px;
 }
 
 /********** About Page *************/
 
-  .mission-content {
-    justify-content: space-between;
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
   }
  
 .mission-content p {
@@ -613,6 +710,10 @@ footer h4 {
     align-items: flex-start;
 }
 
+.contact-content h4 {
+  font-size: 1.5em;
+}
+
 /********** FAQ Page *************/
 
   .faq .content-wrapper {
@@ -620,11 +721,17 @@ footer h4 {
     }
     
     .faq-content {
-        flex-basis: 40%;
+        flex-basis: 45%;
     }
  
     .faq h2 {
         width: 100%;
+    }
+
+    .faq h4,
+    .faq p {
+      font-size: .875em;
+      line-height: 1.125;
     }
 
 }  /* End of tablet media query  */
@@ -638,27 +745,80 @@ footer h4 {
 
 /* Header */
 
+header {
+  padding: 15px 0;
+}
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.333;
+
+}
 header nav {
   width: 20%;
+  font-weight: normal;
 }
 
 header nav ul {
   justify-content: space-between;
 }
 
+/* Hero */
+
+.hero-area h1 {
+  font-size: 3.75em;
+  width: 60%;
+}
+
 /* Aside */
 
   aside .content-wrapper {
-    width: 83%;
+    justify-content: space-around;
   } 
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  .form-description p {
+    font-size: 1.125em;
+  }
 
 /* Features */
 
-.features-items article {
-  width: 20%;
-  padding: 0 1.75em;
+.features h2 {
+  width: 90%;
 }
 
+.features article {
+  flex-basis: 33%;
+}
+
+
+
+/* Reviews */
+
+.reviews h2 {
+  padding-bottom: 50px;
+}
+
+.reviews article div {
+  width: 42%;
+}
   /* Footer */
 
   footer .content-wrapper {
@@ -688,12 +848,33 @@ header nav ul {
 
 /* Contact */
 
+.mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%;
+      font-size: 3em;
+  }
+
+.contact-content h4 {
+    font-size: 1.875em;
+  }
+
 .general,
 .chat {
   flex-basis: 50%;
 }
 
 /***************** FAQ Page *****************/
+
+.faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
+    
+  .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+  }
 
 .faq .content-wrapper h1 {
   width: 100%;
