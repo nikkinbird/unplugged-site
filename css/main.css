@@ -367,6 +367,10 @@ address {
   align-items: center;
 }
 
+.mission {
+  background-color: #527158;
+}
+
 .mission-content {
   display: flex;
   justify-content: center;
@@ -376,7 +380,15 @@ address {
 
 .map {
   height: 450px;
-  background-color: pink;
+  background-color: #527158;
+}
+
+figure {
+  margin: 0;
+}
+
+.contact-section {
+  background-color: #2a423a;
 }
 
 /***************** FAQ Page ****************/
@@ -385,6 +397,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -567,10 +580,6 @@ footer .content-wrapper {
 }
 
 /********** About Page *************/
-
-  .mission {
-    background-color: teal;
-  }
 
   .mission-content {
     justify-content: space-between;
