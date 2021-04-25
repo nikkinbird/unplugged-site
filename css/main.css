@@ -98,6 +98,7 @@ body {
        font-family: 'Open Sans', sans-serif;
        font-size: 1em;
        text-align: left;
+       color: #e2e3ed;
 }
 
 ul,
@@ -171,6 +172,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header {
@@ -245,6 +247,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #1a2c2a;
 }
 
 /* Aside */
@@ -254,6 +257,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 aside .content-wrapper {
@@ -269,6 +273,7 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #1a2c2a;
 }
 
 .features h2 {
@@ -297,6 +302,7 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -312,11 +318,6 @@ aside .content-wrapper {
 
 
 /********** Footer ****************/
-
-footer {
-  background-color: yellow;
-}
-
 
 
 .footer-content {
@@ -355,7 +356,6 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
 }
 
 
@@ -503,7 +503,6 @@ header .content-wrapper {
 
 .hero-area {
   height: 600px;
-  background-color: green;
 }
 
 /* Aside - Newsletter */
