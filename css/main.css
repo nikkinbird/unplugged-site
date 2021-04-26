@@ -264,7 +264,7 @@ footer .copyright {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #1a2c2a;
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
+  background: url('../img/hero-image.jpg') center no-repeat;
   background-size: cover;
 }
 
@@ -303,6 +303,8 @@ aside .content-wrapper {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #1a2c2a;
+  background: url('../img/features-image.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
