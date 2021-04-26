@@ -145,6 +145,15 @@ aside .form {
   margin-top: 30px;
 }
  
+img { 
+  width: 100%;
+}
+ 
+figure {
+        margin: 0;
+}
+
+
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -187,6 +196,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -565,7 +582,7 @@ header {
 }
 
 header .content-wrapper {
-  width: 100%;
+  width: 83%;
   justify-content: space-between;
 }
 
@@ -765,6 +782,10 @@ header nav {
 
 header nav ul {
   justify-content: space-between;
+}
+
+header figure {
+  width: 25%;
 }
 
 /* Hero */
