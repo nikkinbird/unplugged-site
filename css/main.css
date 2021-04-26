@@ -836,8 +836,12 @@ header figure {
   padding-bottom: 50px;
 }
 
+.reviews article figure {
+  width: 47%;
+}
+
 .reviews article div {
-  width: 42%;
+  width: 47%;
 }
   /* Footer */
 
