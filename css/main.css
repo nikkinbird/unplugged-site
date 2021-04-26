@@ -366,6 +366,10 @@ aside .content-wrapper {
 
 }
 
+.reviews article figure {
+  width: 100%;
+}
+
 
 
 
@@ -660,8 +664,12 @@ aside .form {
   justify-content: space-between;
 }
 
+.reviews article figure {
+  width: 47%;
+}
+
 .reviews h2 {
-  width: 85%;
+  width: 100%;
 }
 
 .reviews article div {
