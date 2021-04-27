@@ -718,6 +718,10 @@ footer h4 {
 
 /********** About Page *************/
 
+.mission .content-wrapper {
+  margin-top: 50px;
+}
+
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -727,6 +731,16 @@ footer h4 {
  
 .mission-content p {
   width: 45%;
+}
+
+/* Map */
+
+.map figure {
+    width: 100%;
+    height: 0; 
+    padding-bottom: 45%; 
+    overflow: hidden;
+    position: relative;
 }
  
  /* Contact */
@@ -888,6 +902,16 @@ header figure {
       width: 95%;
       font-size: 3em;
   }
+
+  /* Map */
+
+  .map figure {
+    width: 100%;
+    height: 0; 
+    padding-bottom: 37%; 
+    overflow: hidden;
+    position: relative;
+}
 
 .contact-content h4 {
     font-size: 1.875em;
