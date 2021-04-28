@@ -401,6 +401,21 @@ aside .content-wrapper {
   width: 100%;
 }
 
+.social-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25em;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
 .copyright {
   display: flex;
   justify-content: center;
@@ -709,7 +724,7 @@ aside .form {
 
 .contact,
 .social {
-  width: 50%;
+  width: 40%;
 }
 
 footer .content-wrapper {
@@ -720,6 +735,9 @@ footer h4 {
   font-size: 1.5em;
   margin-bottom: 40px;
 }
+
+
+
 
 /********** About Page *************/
 
@@ -887,16 +905,15 @@ header figure {
 
   .content-wrapper .footer-content {
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
   }
 
-  .contact {
-    flex-basis: 25%;
-  }
-
+  .contact,
   .social {
     flex-basis: 25%;
   }
+
+  
 
 /***************** About Page *****************/
 
