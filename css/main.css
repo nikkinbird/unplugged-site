@@ -110,7 +110,9 @@ a {
   color: #e3e3ed;
 }
 
-
+h1 {
+  margin: 0;
+}
 h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
@@ -282,7 +284,9 @@ footer .copyright {
   flex-flow: row wrap;
   background-color: #1a2c2a;
   background: url('../img/hero-image.jpg') center no-repeat;
-  background-size: cover;
+  background-size: 1200px;
+  height: 500px;
+  background-position: center 30%;
 }
 
 .hero-area h1 {
